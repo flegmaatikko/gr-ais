@@ -23,7 +23,7 @@
 #ifndef INCLUDED_DIGITAL_MSK_TIMING_RECOVERY_CC_IMPL_H
 #define INCLUDED_DIGITAL_MSK_TIMING_RECOVERY_CC_IMPL_H
 
-#include <ais/msk_timing_recovery_cc.h>
+#include <gnuradio/ais/msk_timing_recovery_cc.h>
 #include <gnuradio/filter/mmse_fir_interpolator_cc.h>
 #include <boost/circular_buffer.hpp>
 #include <gnuradio/filter/fir_filter_with_buffer.h>

@@ -44,7 +44,7 @@
 #include <gnuradio/blocks/vector_sink.h>
 #include <gnuradio/filter/fir_filter.h>
 #include <gnuradio/top_block.h>
-#include <ais/modulate_vector.h>
+#include <gnuradio/ais/modulate_vector.h>
 
 namespace gr {
   namespace ais {
