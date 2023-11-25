@@ -23,7 +23,7 @@
 #ifndef INCLUDED_DIGITAL_CORR_EST_CC_CC_H
 #define INCLUDED_DIGITAL_CORR_EST_CC_CC_H
 
-#include <ais/api.h>
+#include <gnuradio/ais/api.h>
 #include <gnuradio/sync_block.h>
 
 namespace gr {

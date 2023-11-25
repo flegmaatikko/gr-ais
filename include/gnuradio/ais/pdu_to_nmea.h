@@ -22,7 +22,7 @@
 #ifndef INCLUDED_AIS_PDU_TO_NMEA_H
 #define INCLUDED_AIS_PDU_TO_NMEA_H
 
-#include <ais/api.h>
+#include <gnuradio/ais/api.h>
 #include <gnuradio/block.h>
 
 namespace gr {

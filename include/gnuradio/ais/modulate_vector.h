@@ -22,7 +22,7 @@
 #ifndef INCLUDED_DIGITAL_MODULATE_VECTOR_H
 #define INCLUDED_DIGITAL_MODULATE_VECTOR_H
 
-#include <ais/api.h>
+#include <gnuradio/ais/api.h>
 #include <gnuradio/types.h>
 
 namespace gr {

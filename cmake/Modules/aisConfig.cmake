@@ -3,7 +3,7 @@ PKG_CHECK_MODULES(PC_AIS ais)
 
 FIND_PATH(
     AIS_INCLUDE_DIRS
-    NAMES ais/api.h
+    NAMES gnuradio/ais/api.h
     HINTS $ENV{AIS_DIR}/include
         ${PC_AIS_INCLUDEDIR}
     PATHS ${CMAKE_INSTALL_PREFIX}/include
