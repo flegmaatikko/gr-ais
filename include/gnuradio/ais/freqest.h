@@ -36,7 +36,7 @@ namespace gr {
     class AIS_API freqest : virtual public gr::sync_block
     {
      public:
-      typedef boost::shared_ptr<freqest> sptr;
+      typedef std::shared_ptr<freqest> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of ais::freqest.

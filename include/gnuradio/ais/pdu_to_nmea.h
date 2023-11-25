@@ -36,7 +36,7 @@ namespace gr {
     class AIS_API pdu_to_nmea : virtual public gr::block
     {
      public:
-      typedef boost::shared_ptr<pdu_to_nmea> sptr;
+      typedef std::shared_ptr<pdu_to_nmea> sptr;
 
       virtual void to_nmea(pmt::pmt_t) = 0;
       virtual void print(pmt::pmt_t) = 0;

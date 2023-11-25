@@ -36,7 +36,7 @@ namespace gr {
     class AIS_API invert : virtual public gr::sync_block
     {
      public:
-      typedef boost::shared_ptr<invert> sptr;
+      typedef std::shared_ptr<invert> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of ais::invert.
