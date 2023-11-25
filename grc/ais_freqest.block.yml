@@ -1,0 +1,26 @@
+id: ais_freqest
+label: freqest
+category: '[Ais]'
+templates:
+  imports: from gnuradio import ais
+  make: ais.freqest(${sample_rate}, ${data_rate}, ${fftlen})
+parameters:
+- id: sample_rate
+  label: Sample_rate
+  dtype: float
+- id: data_rate
+  label: Data_rate
+  dtype: int
+- id: fftlen
+  label: Fftlen
+  dtype: int
+inputs:
+- label: in
+  domain: stream
+  dtype: complex
+  vlen: ${ fftlen }
+outputs:
+- label: out
+  domain: stream
+  dtype: float
+file_format: 1

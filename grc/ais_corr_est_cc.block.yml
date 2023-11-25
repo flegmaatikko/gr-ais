@@ -1,0 +1,30 @@
+id: ais_corr_est_cc
+label: corr est cc
+category: '[Ais]'
+templates:
+  imports: from gnuradio import ais
+  make: ais.corr_est_cc(${symbols}, ${sps}, ${mark_delay}, ${threshold})
+parameters:
+- id: symbols
+  label: Symbols
+  dtype: complex_vector
+- id: sps
+  label: Sps
+  dtype: float
+- id: mark_delay
+  label: Mark_delay
+  dtype: raw
+- id: threshold
+  label: Threshold
+  default: '0.9'
+  dtype: float
+inputs:
+- label: in
+  domain: stream
+  dtype: complex
+outputs:
+- label: out
+  domain: stream
+  dtype: complex
+  multiplicity: '2'
+file_format: 1
