@@ -16,7 +16,7 @@ from gnuradio.filter import window
 from gnuradio import digital
 from gnuradio import analog
 import math
-import ais
+from gnuradio import ais
 import random
 class ais_demod(gr.hier_block2):
     def __init__(self, options):

@@ -3,7 +3,7 @@
 
 from gnuradio.eng_option import eng_option
 from optparse import OptionParser
-import ais
+from gnuradio import ais
 
 import time
 import sys
