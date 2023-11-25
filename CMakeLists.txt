@@ -130,8 +130,7 @@ add_custom_target(uninstall
 ########################################################################
 add_subdirectory(include/ais)
 add_subdirectory(lib)
-add_subdirectory(swig)
-add_subdirectory(python)
+add_subdirectory(python/ais)
 add_subdirectory(grc)
 add_subdirectory(apps)
 

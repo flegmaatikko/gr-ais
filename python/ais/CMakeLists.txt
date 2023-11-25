@@ -35,7 +35,7 @@ GR_PYTHON_INSTALL(
     fsm_utils.py
     ais_demod.py
     radio.py
-    DESTINATION ${GR_PYTHON_DIR}/ais
+    DESTINATION ${GR_PYTHON_DIR}/gnuradio/ais
 )
 
 ########################################################################
