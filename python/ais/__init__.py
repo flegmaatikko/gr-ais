@@ -25,12 +25,17 @@ description here (python/__init__.py).
 
 from __future__ import unicode_literals
 
-# import swig generated symbols into the gr_ais namespace
+import os
+
+# import pybind11 generated symbols into the ais namespace
 try:
-    from .ais_swig import *
-except ImportError:
+    # this might fail if the module is python-only
+    from .ais_python import *
+except ModuleNotFoundError:
     pass
 
 from .gmsk_sync import square_and_fft_sync_cc
 from .ais_demod import ais_demod
 from .radio import ais_rx
+
+
