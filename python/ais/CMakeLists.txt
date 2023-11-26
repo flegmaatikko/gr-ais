@@ -43,3 +43,14 @@ GR_PYTHON_INSTALL(
 ########################################################################
 # Handle the unit tests
 ########################################################################
+include(GrTest)
+
+set(GR_TEST_TARGET_DEPS ais)
+
+# Create a package directory that tests can import. It includes everything
+# from `python/`.
+add_custom_target(
+  copy_module_for_tests ALL
+  COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_CURRENT_SOURCE_DIR}
+          ${PROJECT_BINARY_DIR}/test_modules/gnuradio/ais/
+)
