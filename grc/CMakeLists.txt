@@ -21,5 +21,6 @@ install(FILES
     ais_freqest.block.yml
     ais_invert.block.yml
     ais_msk_timing_recovery_cc.block.yml
-    ais_pdu_to_nmea.block.yml DESTINATION share/gnuradio/grc/blocks
+    ais_pdu_to_nmea.block.yml
+    ais_square_and_fft_sync.block.yml DESTINATION share/gnuradio/grc/blocks
 )
