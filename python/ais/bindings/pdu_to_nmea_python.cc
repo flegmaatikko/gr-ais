@@ -16,7 +16,7 @@
 /* BINDTOOL_GEN_AUTOMATIC(0) */
 /* BINDTOOL_USE_PYGCCXML(0) */
 /* BINDTOOL_HEADER_FILE(pdu_to_nmea.h)                                        */
-/* BINDTOOL_HEADER_FILE_HASH(d512a59d280bf96e50c351b77dd39bdf) */
+/* BINDTOOL_HEADER_FILE_HASH(713001a0ecb0e96cc0bb412541efb20c) */
 /***********************************************************************************/
 
 #include <pybind11/complex.h>
